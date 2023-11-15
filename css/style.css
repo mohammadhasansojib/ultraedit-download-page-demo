@@ -1,0 +1,55 @@
+:root{
+    --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --secondary-font: inherit;
+
+
+
+    --blue-btn: #00b6d1;
+    --green-btn: #5cb85c;
+
+    --lang-card: #f9f9f9;
+
+    --dark-section: #222;
+
+    --dark-black-text: black;
+    --light-black-text: #222;
+    --white-text: #fff;
+    --blue-text: #00b6d1;
+
+    --icon-color: #222;
+
+    --btn-text-color: #fff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+    font-family: var(--main-font);
+}
+
+
+.btn{
+    background-color: var(--blue-btn);
+    border: none;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: var(--btn-text-color);
+    border-radius: 4px;
+}
+.big-btn{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.midium-btn{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.small-btn{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
