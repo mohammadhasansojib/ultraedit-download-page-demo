@@ -235,6 +235,107 @@ header nav .header-container .row .bar i{
 
 
 
+/* ======== NEWSLETTER SECTION START ========= */
+.newsletter-sec{
+    background-color: var(--dark-section);
+    color: var(--white-text);
+}
+.newsletter-sec .container{
+    padding: 70px 40px;
+}
+.newsletter-sec .container .row{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.newsletter-sec .container .row .col-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px 100px;
+}
+.newsletter-sec .container .row .col-1 .text b{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+
+    display: inline-block;
+    margin: 10px 0;
+}
+.newsletter-sec .container .row .col-1 .text p{
+    font-size: 16px;
+    text-align: center;
+}
+.newsletter-sec .container .row .col-1 .input-box{
+    background-color: white;
+    color: var(--light-black-text);
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    max-width: max-content;
+    padding: 40px 35px;
+    border-radius: 12px;
+}
+.newsletter-sec .container .row .col-1 .input-box b{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--blue-text);
+    margin-bottom: 15px;
+}
+.newsletter-sec .container .row .col-1 .input-box span{
+    font-size: 14px;
+    margin-bottom: 2px;
+    display: inline-block;
+    color: var(--light-black-text);
+}
+.newsletter-sec .container .row .col-1 .input-box input{
+    outline: none;
+    border: 0.1px solid #99999969;
+    background-color: white;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    color: var(--light-black-text);
+    width: 280px;
+}
+.newsletter-sec .container .row .col-1 .input-box .btn{
+    box-shadow: 1.2px 2.2px 5px -3px var(--blue-btn);
+}
+
+
+
+
+.newsletter-sec .container .row .col-2 a{
+    color: var(--blue-text);
+
+}
+.newsletter-sec .container .row .col-2 .text-1 b{
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+}
+.newsletter-sec .container .row .col-2 .text-1 p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.newsletter-sec .container .row .col-2 .text-2 b{
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: inline-block;
+    
+}
+.newsletter-sec .container .row .col-2 .text-2 p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+/* ======== NEWSLETTER SECTION END ========= */
+
+
+
 
 
 
@@ -274,6 +375,12 @@ header nav .header-container .row .bar i{
 
     .download-card-sec .container .row{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .newsletter-sec .container .row .col-1{
+        flex-direction: column;
     }
 }
 
@@ -339,5 +446,16 @@ header nav .header-container .row .bar i{
         height: 45px;
         margin-right: 10px;
         margin-top: 0px;
+    }
+
+
+
+
+    .newsletter-sec .container{
+        padding: 70px 20px;
+    }
+    .newsletter-sec .container .row .col-1 .input-box input{
+        padding: 12px 15px;
+        width: auto;
     }
 }
