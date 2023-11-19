@@ -49,10 +49,13 @@
     text-transform: uppercase;
 }
 .small-btn{
-    font-size: 12px;
+    font-size: 11px;
     text-transform: capitalize;
+    padding: 10px 18px;
 }
-
+.green-btn{
+    background-color: var(--green-btn);
+}
 .container{
     max-width: 980px;
     margin: auto;
@@ -189,7 +192,45 @@ header nav .header-container .row .bar i{
 }
 
 /* =========== HERO SECTION END ========== */
+/* ======== DOWNLOAD-CARD SECTION START ========== */
+.download-card-sec .container{
+    padding: 50px 32px;
+    padding-top: 0;
+}
+.download-card-sec .container .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+    justify-content: center;
+    
+    gap: 20px 30px;
+}
+.download-card-sec .container .row .card{
+    background-color: var(--lang-card);
+    /* width: max-content; */
+    padding: 15px 13px;
+
+}
+.download-card-sec .container .row .card h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.download-card-sec .container .row .card .nation-name{
+    display: block;
+    margin: 12px 0;
+    text-transform: capitalize;
+    font-size: 12px;
+    text-align: center;
+}
+.download-card-sec .container .row .card .btns{
+    margin-top: 20px;
+    text-align: center;
+}
+.download-card-sec .container .row .card .btns .btn{
+    margin: 6px 2px;
+}
+/* ======== DOWNLOAD-CARD SECTION END ========== */
 
 
 
@@ -227,6 +268,12 @@ header nav .header-container .row .bar i{
 
     .hero-sec .container{
         padding: 10px 40px;
+    }
+
+
+
+    .download-card-sec .container .row{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
