@@ -1,0 +1,7 @@
+[
+    {"name" : "sajib", "age" : 21, "address" : "Gazipur"},
+    {"name" : "hasan", "age" : 23, "address" : "Dhaka"},
+    {"name" : "rehan", "age" : 20, "address" : "Mymensingh"},
+    {"name" : "jamin", "age" : 25, "address" : "Khulna"},
+    {"name" : "risat", "age" : 24, "address" : "Bogura"}
+]
